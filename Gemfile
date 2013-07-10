@@ -7,6 +7,13 @@ gem 'rails', '4.0.0'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
+
+#had to add this to make devise work-aaron
+gem 'protected_attributes'
+
+gem "devise"
+#installing gem for autehntication system
+
 gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -33,7 +40,7 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+  gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
